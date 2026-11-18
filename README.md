@@ -12,6 +12,11 @@ One image summing up the world news of Wednesday 18 November 2026: a flat editor
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
+The copy is byte-for-byte and deterministic: running the program twice
+writes identical `entry.png` bytes both times. The output is the
+1024x1024 JPEG held in the repo (353,252 bytes, under the 1 MiB cap),
+written under the name `entry.png` as the competition requires.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=dimarz&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
